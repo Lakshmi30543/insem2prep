@@ -42,9 +42,3 @@ jobs:
           file: ./friendlist/frontend.Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/insem2-frontend:latest
-
-        with:
-          context: ./friendlist
-          file: ./friendlist/frontend.Dockerfile
-          push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/insem2-frontend:latest
